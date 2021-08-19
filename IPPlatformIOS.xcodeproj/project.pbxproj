@@ -3,23 +3,84 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD62436326CEB06B00516DD5 /* HouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62436226CEB06B00516DD5 /* HouseView.swift */; };
+		AD62436626CEB2B900516DD5 /* View+innerShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62436526CEB2B900516DD5 /* View+innerShadow.swift */; };
 		ADF57A4826CE39D2008F570E /* IPPlatformIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A4726CE39D2008F570E /* IPPlatformIOSApp.swift */; };
 		ADF57A4A26CE39D2008F570E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A4926CE39D2008F570E /* ContentView.swift */; };
 		ADF57A4C26CE39D4008F570E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF57A4B26CE39D4008F570E /* Assets.xcassets */; };
 		ADF57A4F26CE39D4008F570E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF57A4E26CE39D4008F570E /* Preview Assets.xcassets */; };
+		ADF57A5826CE3A37008F570E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = ADF57A5726CE3A37008F570E /* Lottie */; };
+		ADF57A5C26CE3A66008F570E /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A5B26CE3A66008F570E /* LottieView.swift */; };
+		ADF57A5F26CE3AA8008F570E /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A5E26CE3AA8008F570E /* LaunchView.swift */; };
+		ADF57A6126CE3AD3008F570E /* working-together.json in Resources */ = {isa = PBXBuildFile; fileRef = ADF57A6026CE3AD3008F570E /* working-together.json */; };
+		ADF57A6426CE4142008F570E /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A6326CE4142008F570E /* BlurView.swift */; };
+		ADF57A6626CE4812008F570E /* Launch.json in Resources */ = {isa = PBXBuildFile; fileRef = ADF57A6526CE4812008F570E /* Launch.json */; };
+		ADF57A6826CE49BD008F570E /* working-man.json in Resources */ = {isa = PBXBuildFile; fileRef = ADF57A6726CE49BD008F570E /* working-man.json */; };
+		ADF57A6B26CE4A1F008F570E /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A6A26CE4A1F008F570E /* Content.swift */; };
+		ADF57A7126CE4FA8008F570E /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADF57A6E26CE4FA8008F570E /* Montserrat-Bold.ttf */; };
+		ADF57A7226CE4FA8008F570E /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADF57A6F26CE4FA8008F570E /* Montserrat-Regular.ttf */; };
+		ADF57A7326CE4FA8008F570E /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADF57A7026CE4FA8008F570E /* Montserrat-ExtraBold.ttf */; };
+		ADF57A7526CE566C008F570E /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A7426CE566C008F570E /* BackgroundView.swift */; };
+		ADF57A7926CE61A4008F570E /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A7826CE61A4008F570E /* CustomSecureField.swift */; };
+		ADF57A7B26CE65DE008F570E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A7A26CE65DE008F570E /* CustomButton.swift */; };
+		ADF57A7E26CE6AEA008F570E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A7D26CE6AEA008F570E /* HomeView.swift */; };
+		ADF57A8A26CE7D59008F570E /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A8126CE7D59008F570E /* UserProfileViewModel.swift */; };
+		ADF57A8B26CE7D59008F570E /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A8326CE7D59008F570E /* UserRepository.swift */; };
+		ADF57A8C26CE7D59008F570E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A8526CE7D59008F570E /* User.swift */; };
+		ADF57A8D26CE7D59008F570E /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A8726CE7D59008F570E /* UserView.swift */; };
+		ADF57A8E26CE7D59008F570E /* UserApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A8926CE7D59008F570E /* UserApiService.swift */; };
+		ADF57A9126CE7DD8008F570E /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A9026CE7DD8008F570E /* LazyView.swift */; };
+		ADF57A9826CE7E23008F570E /* NavigationStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A9426CE7E23008F570E /* NavigationStep.swift */; };
+		ADF57A9926CE7E23008F570E /* NavigationDismissStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A9526CE7E23008F570E /* NavigationDismissStep.swift */; };
+		ADF57A9A26CE7E23008F570E /* UIKitNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A9626CE7E23008F570E /* UIKitNavigation.swift */; };
+		ADF57A9B26CE7E23008F570E /* RootNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A9726CE7E23008F570E /* RootNavigationView.swift */; };
+		ADF57AA026CE7ECF008F570E /* OnboardingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A9D26CE7ECF008F570E /* OnboardingDataModel.swift */; };
+		ADF57AA126CE7ECF008F570E /* OnboardingStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A9E26CE7ECF008F570E /* OnboardingStepView.swift */; };
+		ADF57AA226CE7ECF008F570E /* OnboardingViewPure.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57A9F26CE7ECF008F570E /* OnboardingViewPure.swift */; };
+		ADF57AA526CE864C008F570E /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF57AA426CE864C008F570E /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD62436226CEB06B00516DD5 /* HouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseView.swift; sourceTree = "<group>"; };
+		AD62436526CEB2B900516DD5 /* View+innerShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+innerShadow.swift"; sourceTree = "<group>"; };
 		ADF57A4426CE39D2008F570E /* IPPlatformIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPPlatformIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF57A4726CE39D2008F570E /* IPPlatformIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPPlatformIOSApp.swift; sourceTree = "<group>"; };
 		ADF57A4926CE39D2008F570E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ADF57A4B26CE39D4008F570E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADF57A4E26CE39D4008F570E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADF57A5026CE39D4008F570E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF57A5B26CE3A66008F570E /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		ADF57A5E26CE3AA8008F570E /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		ADF57A6026CE3AD3008F570E /* working-together.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "working-together.json"; sourceTree = "<group>"; };
+		ADF57A6326CE4142008F570E /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		ADF57A6526CE4812008F570E /* Launch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Launch.json; sourceTree = "<group>"; };
+		ADF57A6726CE49BD008F570E /* working-man.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "working-man.json"; sourceTree = "<group>"; };
+		ADF57A6A26CE4A1F008F570E /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		ADF57A6E26CE4FA8008F570E /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		ADF57A6F26CE4FA8008F570E /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		ADF57A7026CE4FA8008F570E /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		ADF57A7426CE566C008F570E /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		ADF57A7826CE61A4008F570E /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		ADF57A7A26CE65DE008F570E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		ADF57A7D26CE6AEA008F570E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ADF57A8126CE7D59008F570E /* UserProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewModel.swift; sourceTree = "<group>"; };
+		ADF57A8326CE7D59008F570E /* UserRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		ADF57A8526CE7D59008F570E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ADF57A8726CE7D59008F570E /* UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		ADF57A8926CE7D59008F570E /* UserApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserApiService.swift; sourceTree = "<group>"; };
+		ADF57A9026CE7DD8008F570E /* LazyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
+		ADF57A9426CE7E23008F570E /* NavigationStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationStep.swift; sourceTree = "<group>"; };
+		ADF57A9526CE7E23008F570E /* NavigationDismissStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDismissStep.swift; sourceTree = "<group>"; };
+		ADF57A9626CE7E23008F570E /* UIKitNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitNavigation.swift; sourceTree = "<group>"; };
+		ADF57A9726CE7E23008F570E /* RootNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNavigationView.swift; sourceTree = "<group>"; };
+		ADF57A9D26CE7ECF008F570E /* OnboardingDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingDataModel.swift; sourceTree = "<group>"; };
+		ADF57A9E26CE7ECF008F570E /* OnboardingStepView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingStepView.swift; sourceTree = "<group>"; };
+		ADF57A9F26CE7ECF008F570E /* OnboardingViewPure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewPure.swift; sourceTree = "<group>"; };
+		ADF57AA426CE864C008F570E /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +88,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF57A5826CE3A37008F570E /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD62436126CEB05300516DD5 /* Function View */ = {
+			isa = PBXGroup;
+			children = (
+				AD62436226CEB06B00516DD5 /* HouseView.swift */,
+			);
+			path = "Function View";
+			sourceTree = "<group>";
+		};
+		AD62436426CEB2A900516DD5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AD62436526CEB2B900516DD5 /* View+innerShadow.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		ADF57A3B26CE39D2008F570E = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +130,10 @@
 		ADF57A4626CE39D2008F570E /* IPPlatformIOS */ = {
 			isa = PBXGroup;
 			children = (
+				ADF57A7F26CE7D59008F570E /* MVVM */,
+				ADF57A6C26CE4F7C008F570E /* Resource */,
+				ADF57A6926CE49FD008F570E /* Localization */,
+				ADF57A5926CE3A52008F570E /* Views */,
 				ADF57A4726CE39D2008F570E /* IPPlatformIOSApp.swift */,
 				ADF57A4926CE39D2008F570E /* ContentView.swift */,
 				ADF57A4B26CE39D4008F570E /* Assets.xcassets */,
@@ -67,6 +149,184 @@
 				ADF57A4E26CE39D4008F570E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADF57A5926CE3A52008F570E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ADF57A5A26CE3A58008F570E /* Lottie View */ = {
+			isa = PBXGroup;
+			children = (
+				ADF57A6726CE49BD008F570E /* working-man.json */,
+				ADF57A6526CE4812008F570E /* Launch.json */,
+				ADF57A6026CE3AD3008F570E /* working-together.json */,
+			);
+			path = "Lottie View";
+			sourceTree = "<group>";
+		};
+		ADF57A5D26CE3A89008F570E /* Launch View */ = {
+			isa = PBXGroup;
+			children = (
+				ADF57A5E26CE3AA8008F570E /* LaunchView.swift */,
+			);
+			path = "Launch View";
+			sourceTree = "<group>";
+		};
+		ADF57A6926CE49FD008F570E /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				ADF57A6A26CE4A1F008F570E /* Content.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		ADF57A6C26CE4F7C008F570E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				ADF57A6D26CE4F82008F570E /* Fonts */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		ADF57A6D26CE4F82008F570E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ADF57A6E26CE4FA8008F570E /* Montserrat-Bold.ttf */,
+				ADF57A7026CE4FA8008F570E /* Montserrat-ExtraBold.ttf */,
+				ADF57A6F26CE4FA8008F570E /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ADF57A7726CE575D008F570E /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				ADF57A7426CE566C008F570E /* BackgroundView.swift */,
+				ADF57A7826CE61A4008F570E /* CustomSecureField.swift */,
+				ADF57A7A26CE65DE008F570E /* CustomButton.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		ADF57A7C26CE6ADD008F570E /* Home View */ = {
+			isa = PBXGroup;
+			children = (
+				ADF57A7D26CE6AEA008F570E /* HomeView.swift */,
+			);
+			path = "Home View";
+			sourceTree = "<group>";
+		};
+		ADF57A7F26CE7D59008F570E /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				ADF57A8026CE7D59008F570E /* ViewModel */,
+				ADF57A8226CE7D59008F570E /* Repositories */,
+				ADF57A8426CE7D59008F570E /* Models */,
+				ADF57A8626CE7D59008F570E /* Views */,
+				ADF57A8826CE7D59008F570E /* Services */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		ADF57A8026CE7D59008F570E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ADF57A8126CE7D59008F570E /* UserProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ADF57A8226CE7D59008F570E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				ADF57A8326CE7D59008F570E /* UserRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		ADF57A8426CE7D59008F570E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ADF57A8526CE7D59008F570E /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ADF57A8626CE7D59008F570E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD62436426CEB2A900516DD5 /* Extension */,
+				AD62436126CEB05300516DD5 /* Function View */,
+				ADF57A8F26CE7DC7008F570E /* Custom View */,
+				ADF57A7C26CE6ADD008F570E /* Home View */,
+				ADF57A7726CE575D008F570E /* Component */,
+				ADF57A5D26CE3A89008F570E /* Launch View */,
+				ADF57A5A26CE3A58008F570E /* Lottie View */,
+				ADF57A8726CE7D59008F570E /* UserView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ADF57A8826CE7D59008F570E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ADF57A8926CE7D59008F570E /* UserApiService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ADF57A8F26CE7DC7008F570E /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				ADF57AA326CE863D008F570E /* Tabbar View */,
+				ADF57A9C26CE7ECF008F570E /* Walk Throught */,
+				ADF57A9226CE7E23008F570E /* NaivgationStep */,
+				ADF57A5B26CE3A66008F570E /* LottieView.swift */,
+				ADF57A6326CE4142008F570E /* BlurView.swift */,
+				ADF57A9026CE7DD8008F570E /* LazyView.swift */,
+			);
+			path = "Custom View";
+			sourceTree = "<group>";
+		};
+		ADF57A9226CE7E23008F570E /* NaivgationStep */ = {
+			isa = PBXGroup;
+			children = (
+				ADF57A9326CE7E23008F570E /* NavigationStep */,
+				ADF57A9626CE7E23008F570E /* UIKitNavigation.swift */,
+				ADF57A9726CE7E23008F570E /* RootNavigationView.swift */,
+			);
+			path = NaivgationStep;
+			sourceTree = "<group>";
+		};
+		ADF57A9326CE7E23008F570E /* NavigationStep */ = {
+			isa = PBXGroup;
+			children = (
+				ADF57A9426CE7E23008F570E /* NavigationStep.swift */,
+				ADF57A9526CE7E23008F570E /* NavigationDismissStep.swift */,
+			);
+			path = NavigationStep;
+			sourceTree = "<group>";
+		};
+		ADF57A9C26CE7ECF008F570E /* Walk Throught */ = {
+			isa = PBXGroup;
+			children = (
+				ADF57A9D26CE7ECF008F570E /* OnboardingDataModel.swift */,
+				ADF57A9E26CE7ECF008F570E /* OnboardingStepView.swift */,
+				ADF57A9F26CE7ECF008F570E /* OnboardingViewPure.swift */,
+			);
+			path = "Walk Throught";
+			sourceTree = "<group>";
+		};
+		ADF57AA326CE863D008F570E /* Tabbar View */ = {
+			isa = PBXGroup;
+			children = (
+				ADF57AA426CE864C008F570E /* TabBarView.swift */,
+			);
+			path = "Tabbar View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +345,9 @@
 			dependencies = (
 			);
 			name = IPPlatformIOS;
+			packageProductDependencies = (
+				ADF57A5726CE3A37008F570E /* Lottie */,
+			);
 			productName = IPPlatformIOS;
 			productReference = ADF57A4426CE39D2008F570E /* IPPlatformIOS.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +375,9 @@
 				Base,
 			);
 			mainGroup = ADF57A3B26CE39D2008F570E;
+			packageReferences = (
+				ADF57A5626CE3A37008F570E /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = ADF57A4526CE39D2008F570E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +392,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF57A6826CE49BD008F570E /* working-man.json in Resources */,
 				ADF57A4F26CE39D4008F570E /* Preview Assets.xcassets in Resources */,
+				ADF57A7226CE4FA8008F570E /* Montserrat-Regular.ttf in Resources */,
+				ADF57A7126CE4FA8008F570E /* Montserrat-Bold.ttf in Resources */,
 				ADF57A4C26CE39D4008F570E /* Assets.xcassets in Resources */,
+				ADF57A7326CE4FA8008F570E /* Montserrat-ExtraBold.ttf in Resources */,
+				ADF57A6626CE4812008F570E /* Launch.json in Resources */,
+				ADF57A6126CE3AD3008F570E /* working-together.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +410,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF57A8C26CE7D59008F570E /* User.swift in Sources */,
+				ADF57A7926CE61A4008F570E /* CustomSecureField.swift in Sources */,
+				ADF57A9A26CE7E23008F570E /* UIKitNavigation.swift in Sources */,
 				ADF57A4A26CE39D2008F570E /* ContentView.swift in Sources */,
+				ADF57A8B26CE7D59008F570E /* UserRepository.swift in Sources */,
+				ADF57A9126CE7DD8008F570E /* LazyView.swift in Sources */,
+				ADF57AA026CE7ECF008F570E /* OnboardingDataModel.swift in Sources */,
+				ADF57A7B26CE65DE008F570E /* CustomButton.swift in Sources */,
+				ADF57A8E26CE7D59008F570E /* UserApiService.swift in Sources */,
+				ADF57A7E26CE6AEA008F570E /* HomeView.swift in Sources */,
+				AD62436326CEB06B00516DD5 /* HouseView.swift in Sources */,
+				ADF57AA526CE864C008F570E /* TabBarView.swift in Sources */,
+				ADF57A5F26CE3AA8008F570E /* LaunchView.swift in Sources */,
+				ADF57A8A26CE7D59008F570E /* UserProfileViewModel.swift in Sources */,
+				ADF57A9926CE7E23008F570E /* NavigationDismissStep.swift in Sources */,
+				ADF57A6426CE4142008F570E /* BlurView.swift in Sources */,
+				ADF57AA226CE7ECF008F570E /* OnboardingViewPure.swift in Sources */,
+				ADF57A7526CE566C008F570E /* BackgroundView.swift in Sources */,
+				ADF57A9B26CE7E23008F570E /* RootNavigationView.swift in Sources */,
 				ADF57A4826CE39D2008F570E /* IPPlatformIOSApp.swift in Sources */,
+				ADF57A5C26CE3A66008F570E /* LottieView.swift in Sources */,
+				ADF57A6B26CE4A1F008F570E /* Content.swift in Sources */,
+				ADF57A8D26CE7D59008F570E /* UserView.swift in Sources */,
+				ADF57A9826CE7E23008F570E /* NavigationStep.swift in Sources */,
+				ADF57AA126CE7ECF008F570E /* OnboardingStepView.swift in Sources */,
+				AD62436626CEB2B900516DD5 /* View+innerShadow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +624,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ADF57A5626CE3A37008F570E /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitee.com/chr1s78/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ADF57A5726CE3A37008F570E /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADF57A5626CE3A37008F570E /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ADF57A3C26CE39D2008F570E /* Project object */;
 }
