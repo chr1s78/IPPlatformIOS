@@ -25,7 +25,7 @@ struct LottieView: UIViewRepresentable {
         
         animationView2.translatesAutoresizingMaskIntoConstraints = false
         // 循环播放
-      //  animationView2.loopMode = .loop
+        animationView2.loopMode = .loop
         
         view.addSubview(animationView2)
         

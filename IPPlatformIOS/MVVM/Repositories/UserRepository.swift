@@ -8,7 +8,9 @@
 import Foundation
 
 protocol UserRepositoryProtocol {
-    func fetchUser(id: Int, completion: @escaping (Result<templateModelData, Error>) -> Void)
+    func fetchUser(username: String, password: String, completion: @escaping (Result<User, Error>) -> Void)
+    
+    func fetchAnnounment(completion: @escaping (Result<AnnouncementModelData, Error>) -> Void)
 }
 
 /// 数据仓库
@@ -18,14 +20,23 @@ protocol UserRepositoryProtocol {
 /// ````
 final class UserRepository: UserRepositoryProtocol {
     
+    static let shared = UserRepository()
     /// 初始化数据服务
-    private let apiService: UserApiServiceProtocol
-    init(apiService: UserApiServiceProtocol = UserApiService()) {
-        self.apiService = apiService
+//    private let apiService: UserApiServiceProtocol
+//    init(apiService: UserApiServiceProtocol = UserApiService()) {
+//        self.apiService = apiService
+//    }
+    
+    /// 获取公告信息
+    public func fetchAnnounment(completion: @escaping (Result<AnnouncementModelData, Error>) -> Void) {
+        //apiService.fetchAnnouncement(completion: completion)
+        NetworkService.shared.fetchAnnouncement(completion: completion)
     }
     
-    func fetchUser(id: Int = 1, completion: @escaping (Result<templateModelData, Error>) -> Void) {
+    public func fetchUser(username: String, password: String, completion: @escaping (Result<User, Error>) -> Void) {
         /// 调用数据服务获取数据
-        apiService.fetchUser(id: id, completion: completion)
+        //apiService.fetchUser(username: username, password: password, completion: completion)
+        NetworkService.shared.fetchUser(username: username, password: password, completion: completion)
+        
     }
 }

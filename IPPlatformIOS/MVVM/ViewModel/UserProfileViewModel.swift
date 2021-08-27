@@ -11,7 +11,8 @@ import Foundation
 // 通过数据仓库获取数据
 final class UserProfileViewModel: ObservableObject {
     @Published var username = ""
-    @Published var user: templateModelData = templateModelData()
+    @Published var password = ""
+    @Published var user: User = User(username: "unknown")
     
     /// 初始化数据仓库
     private let repository: UserRepositoryProtocol
@@ -19,14 +20,16 @@ final class UserProfileViewModel: ObservableObject {
         self.repository = repository
     }
     
-    func onAppear() {
+    func Login(completion: @escaping (Bool) -> Void)  {
         /// 调用数据仓库获取数据
-        repository.fetchUser(id: 1) { result in
+        repository.fetchUser(username: username, password: password) { [weak self] result in
             switch result {
             case .success(let data):
-                self.user = data
+                self?.user = data
+                completion(true)
             case .failure(let error):
                 print("View error: " + error.localizedDescription)
+                completion(false)
             }
         }
     }

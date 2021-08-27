@@ -9,23 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var onboardinDone = false
+    @EnvironmentObject var appVM: AppPageServerViewModel
+    // 持久化存储 : 初次打开App时显示引导页
+    @AppStorage("IP_FirstLaunch") var Apps_firstLaunch: Bool?
+
     var data = OnboardingDataModel.data
     
     var body: some View {
         Group {
-            if !onboardinDone {
+            if !(Apps_firstLaunch ?? false) {
                 OnboardingViewPure(data: data, doneFunction: {
-                    /// Update your state here
-                    self.onboardinDone = true
-                    print("done onboarding")
+                    Apps_firstLaunch = true
                 })
-            //    .statusBar(hidden: true)
             } else {
                 LaunchView()
-                    .navigationBarHidden(true)
+                    .environmentObject(appVM)
+                  //  .navigationBarHidden(true)
             }
         }
+        .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
 }
 

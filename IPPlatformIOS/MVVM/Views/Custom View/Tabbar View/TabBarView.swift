@@ -51,10 +51,6 @@ struct TabBarView: View {
             RoundedRectangle(cornerRadius: 30)
                 .foregroundColor(.black.opacity(0.5))
         )
-//        .overlay(
-//            RoundedRectangle(cornerRadius: 30).stroke(
-//                LinearGradient(gradient: Gradient(colors: [Color("tabbar-color1"), Color("tabbar-color2")]), startPoint: .topLeading, endPoint: .bottomTrailing))
-//        )
         .edgesIgnoringSafeArea(.all)
        
     }

@@ -22,52 +22,52 @@ struct BackgroundView: View {
             
             Image("BGImage")
                 .resizable()
-                .aspectRatio(contentMode: .fill)
+                .aspectRatio(contentMode: .fit)
                 .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
       
-            Color.black.opacity(0.3)
+            Color.black.opacity(0.4)
                 .background(
                     BlurView(style: .systemUltraThinMaterialDark)
                 )
    
             
-            ZStack {
-                Circle()
-                    .stroke(Color.white.opacity(0.1), lineWidth: /*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/)
-                    .frame(width: radius1, height: radius1)
-                    .foregroundColor(.clear)
-                
-                Circle()
-                    .stroke(Color.white.opacity(0.1), lineWidth: /*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/)
-                    .frame(width: radius2, height: radius2)
-                    .foregroundColor(.clear)
-              
-                Circle()
-                    .stroke(Color.white.opacity(0.1), lineWidth: /*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/)
-                    .frame(width: radius3, height: radius3)
-                    .foregroundColor(.clear)
-               
-                Circle()
-                    .stroke(Color.white.opacity(0.1), lineWidth: /*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/)
-                    .frame(width: radius4, height: radius4)
-                    .foregroundColor(.clear)
-                  
-            }.offset(x: 254, y: -303)
+//            ZStack {
+//                Circle()
+//                    .stroke(Color.white.opacity(0.1), lineWidth: /*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/)
+//                    .frame(width: radius1, height: radius1)
+//                    .foregroundColor(.clear)
+//                
+//                Circle()
+//                    .stroke(Color.white.opacity(0.1), lineWidth: /*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/)
+//                    .frame(width: radius2, height: radius2)
+//                    .foregroundColor(.clear)
+//              
+//                Circle()
+//                    .stroke(Color.white.opacity(0.1), lineWidth: /*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/)
+//                    .frame(width: radius3, height: radius3)
+//                    .foregroundColor(.clear)
+//               
+//                Circle()
+//                    .stroke(Color.white.opacity(0.1), lineWidth: /*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/)
+//                    .frame(width: radius4, height: radius4)
+//                    .foregroundColor(.clear)
+//                  
+//            }.offset(x: 254, y: -303)
             
         }
         .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
         .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
         .onAppear {
-            if animateCircle {
-                DispatchQueue.main.asyncAfter(deadline: .now()) {
-                    withAnimation(.easeIn(duration: 1.0)) {
-                        self.radius1 = 352
-                        self.radius2 = 500
-                        self.radius3 = 630
-                        self.radius4 = 780
-                    }
-                }
-            }
+//            if animateCircle {
+//                DispatchQueue.main.asyncAfter(deadline: .now()) {
+//                    withAnimation(.linear(duration: 0.4)) {
+//                        self.radius1 = 352
+//                        self.radius2 = 500
+//                        self.radius3 = 630
+//                        self.radius4 = 780
+//                    }
+//                }
+//            }
         }
     }
 }

@@ -16,17 +16,17 @@ struct UserView: View {
         
         VStack {
             List {
-                ForEach(viewModel.user) { user in
-                    VStack {
-                        Text(user.name)
-                        Text(user.email)
-                        Text(user.body)
-                    }
-                }
+//                ForEach(viewModel.user) { user in
+//                    VStack {
+//                        Text(user.name)
+//                        Text(user.email)
+//                        Text(user.body)
+//                    }
+//                }
             }
         }
         .onAppear {
-            viewModel.onAppear()
+       //     viewModel.onAppear()
         }
     }
 }
