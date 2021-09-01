@@ -79,7 +79,7 @@ struct ChartSheetView: View {
                     options: [
                         .animation(.linear.speed(1)),
                         .background(AnyView(Color.black.opacity(0.8))),
-                        .backgroundBlur(effect: .systemThinMaterial),
+                        .backgroundBlur(effect: .regular),
                         .noDragIndicator,
                         .notResizeable,
                         .showCloseButton(

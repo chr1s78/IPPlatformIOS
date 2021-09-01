@@ -20,6 +20,7 @@ struct HomeView: View {
     @State var showTabbar: Bool = true
     
     init() {
+        // 隐藏原生Tabbar
         UITabBar.appearance().isHidden = true
     }
     
@@ -66,7 +67,6 @@ struct HomeView: View {
                 Spacer(minLength: 0)
                 
                 TabButton(title: "版权管理", image: "leaf", selected: $selection)
-                
                 
             }
             .padding(.bottom, 10)

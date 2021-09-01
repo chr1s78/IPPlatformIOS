@@ -162,8 +162,8 @@
 		AD62436126CEB05300516DD5 /* Tab View */ = {
 			isa = PBXGroup;
 			children = (
+				ADB0461626DA8F7300B2E1C8 /* PatentTabView */,
 				ADC681B526D1FBA900E7F005 /* House */,
-				AD6243E326D0074E00516DD5 /* PatentsView.swift */,
 				AD6243E526D00F5500516DD5 /* TrademarkView.swift */,
 				AD6243E726D0115600516DD5 /* CopyrightView.swift */,
 				AD596E6926D35B2A003A67D4 /* TestTabbarNaviView.swift */,
@@ -236,6 +236,14 @@
 				AD62449426D0F52C00516DD5 /* EffectView.swift */,
 			);
 			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		ADB0461626DA8F7300B2E1C8 /* PatentTabView */ = {
+			isa = PBXGroup;
+			children = (
+				AD6243E326D0074E00516DD5 /* PatentsView.swift */,
+			);
+			path = PatentTabView;
 			sourceTree = "<group>";
 		};
 		ADC681B526D1FBA900E7F005 /* House */ = {
